@@ -6,11 +6,18 @@ namespace LessonOne
     {
         static void Main(String[] args)
         {
+            Console.Title = "System Information";
+            Console.Beep();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("System information:");
+            Console.ResetColor();
+            Console.WriteLine($"User: {Environment.UserName}");
             Console.WriteLine($"System process: {System.Diagnostics.Process.GetCurrentProcess()}");
             Console.WriteLine($"Current directory: {Environment.CurrentDirectory}");
             Console.WriteLine($"Current Managed Thread ID: {Environment.CurrentManagedThreadId}");
             Console.WriteLine("Logical Drives: ");
             GetDrivers();
+            Console.WriteLine($"how much processors: {Environment.ProcessorCount}");
             Console.WriteLine($"System is 64bit?: {Environment.Is64BitOperatingSystem}");
             Console.WriteLine($"OS version: {Environment.OSVersion}");
             Console.WriteLine($"Machine name: {Environment.MachineName}");
