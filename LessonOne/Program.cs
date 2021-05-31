@@ -4,9 +4,9 @@ namespace LessonOne
 {
     class Program
     {
-        static void Main()
+        static void Main(String[] args)
         {
-            Console.WriteLine("First program!");
+            Console.WriteLine(System.Diagnostics.Process.GetCurrentProcess());
             Console.ReadKey();
         }
     }
