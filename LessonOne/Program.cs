@@ -4,9 +4,10 @@ namespace LessonOne
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("First program!");
+            Console.ReadKey();
         }
     }
 }
