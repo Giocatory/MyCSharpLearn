@@ -5,7 +5,7 @@ namespace LessonThree
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string s1 = "Hello";
             string s2 = "Mikle";
@@ -23,8 +23,8 @@ namespace LessonThree
             //################################################################################
 
             Console.WriteLine("\nString Builder");
-            StringBuilder sb = new StringBuilder("### Hi Mikhail ###");
-            sb.Append("\n");
+            StringBuilder sb = new("### Hi Mikhail ###");
+            sb.Append('\n');
             sb.AppendLine("World of Warcraft...");
             sb.AppendLine("Albion");
             sb.AppendLine("Aion 2");
