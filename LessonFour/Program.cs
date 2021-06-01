@@ -11,7 +11,7 @@ namespace LessonFour
             // LINQ query
             var subset = from i in numbers where i < 11 select i; // var == System.Collections.Generic.IEnumerable<int>
 
-            foreach (var k in subset)
+            foreach (var k in subset) // var == int
             {
                 Console.Write($"{k} "); // 10 1 2 3 4 5 6 7 8
             }
