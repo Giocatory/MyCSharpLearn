@@ -75,6 +75,32 @@ namespace LessonFour
                 }
                 Console.WriteLine();
             }
+
+            //##############################################################################################
+
+            Console.WriteLine("\nCopy and Sort Array");
+
+            char[] words = { 'a', 'b', 'f', 'o', 'p', 'z', 'q', 'r' };
+            char[] newWords = new char[words.Length];
+
+            Console.WriteLine("Source array");
+            foreach (char word in words) {
+                Console.Write($"{word} ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("Sorted Array");
+            Array.Sort(words);
+            foreach (char word in words)
+            {
+                Console.Write($"{word} ");
+            }
+            Console.WriteLine();
+            Console.WriteLine("Copy array:\nNewWords:");
+            Array.Copy(words, newWords, words.Length);
+            foreach (char word in newWords)
+            {
+                Console.Write($"{word} ");
+            }
         }
     }
 }
