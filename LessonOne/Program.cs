@@ -6,7 +6,9 @@ namespace LessonOne
     {
         static void Main(String[] args)
         {
-            Console.Title = "System Information";
+            Console.Write("Please write name this console: ");
+            string consoleName = Console.ReadLine();
+            Console.Title = consoleName;
             Console.Beep();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("System information:");
