@@ -32,10 +32,8 @@
 > > + Copy arrays
 
 > Lesson Five
-> 
-
-> Lesson Six
-
-
-> Lesson Seven
-
+> > Tuples
+> > + init
+> > + Write tuple
+> > + Read tuple
+> > + Returned Tuple from function
