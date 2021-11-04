@@ -6,6 +6,7 @@ namespace LessonOne
     {
         static void Main(String[] args)
         {
+            // работа с системными инструментами
             Console.Write("Please write name this console: ");
             string consoleName = Console.ReadLine();
             Console.Title = consoleName;
