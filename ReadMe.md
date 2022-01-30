@@ -1,6 +1,13 @@
 # MyCSharpLearn
 
 ## Обучение языку программированя c#
+> Experiments
+> > little practice exercises
+> > + Factorial, Fibonacci, new syntaxes and More
+
+> Class Libraries
+> > Training to create their own libraries
+> > + Ideas abound, and implementations will be updated
 
 > Lesson One
 > > First work with console.
