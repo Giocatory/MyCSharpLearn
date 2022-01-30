@@ -4,7 +4,7 @@
     {
         public void ViewResult()
         {
-            // new syntax switch 
+            // new syntax switch
             do
             {
                 try

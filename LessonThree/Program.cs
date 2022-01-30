@@ -3,9 +3,9 @@ using System.Text;
 
 namespace LessonThree
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             string s1 = "Hello";
             string s2 = "Mikle";

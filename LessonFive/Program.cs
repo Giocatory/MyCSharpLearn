@@ -2,9 +2,9 @@
 
 namespace LessonFive
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             // init tuple
             (string, int, DateTime) tipicalTuple;
@@ -54,10 +54,10 @@ namespace LessonFive
             Console.WriteLine($"User name: {fullPersonInfo.Item1}");
             Console.WriteLine($"User age: {fullPersonInfo.Item2}");
             Console.WriteLine($"Date from write info about user: {fullPersonInfo.Item3}");
-            
         }
+
         // Returned tuple
-        static (string, int, DateTime) PersonalInfo(string name, int age, DateTime nowDate)
+        private static (string, int, DateTime) PersonalInfo(string name, int age, DateTime nowDate)
         {
             return (name, age, nowDate);
         }

@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace LessonFour
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             int[] numbers = { 10, 20, 30, 40, 1, 2, 3, 4, 5, 6, 7, 8 };
             // LINQ query
@@ -33,7 +33,7 @@ namespace LessonFour
             {
                 for (int k = 1; k <= columns; k++)
                 {
-                    nums[i-1, k-1] = count;
+                    nums[i - 1, k - 1] = count;
                     count++;
                 }
             }
@@ -84,7 +84,8 @@ namespace LessonFour
             char[] newWords = new char[words.Length];
 
             Console.WriteLine("Source array");
-            foreach (char word in words) {
+            foreach (char word in words)
+            {
                 Console.Write($"{word} ");
             }
             Console.WriteLine();

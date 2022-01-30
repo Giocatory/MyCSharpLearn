@@ -2,9 +2,9 @@
 
 namespace LessonTwo
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             (int, float, double) tuple = (30, 30.123456789985201478622001485652214151656F, 30.1234567889);
             Console.WriteLine($"{tuple.Item1:C}"); // 30 PУБ

@@ -2,9 +2,9 @@
 
 namespace LessonOne
 {
-    class Program
+    internal class Program
     {
-        static void Main(String[] args)
+        private static void Main(String[] args)
         {
             // работа с системными инструментами
             Console.Write("Please write name this console: ");
@@ -28,7 +28,8 @@ namespace LessonOne
             Console.WriteLine($"System directory: {Environment.SystemDirectory}");
             Console.ReadKey();
         }
-        static void GetDrivers()
+
+        private static void GetDrivers()
         {
             String[] drivers = Environment.GetLogicalDrives();
             foreach (var drive in drivers)
