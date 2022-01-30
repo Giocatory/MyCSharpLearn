@@ -27,9 +27,13 @@
                         _ => "Вы ввели цифру в неверном диапазоне",
                     });
                 }
-                catch (Exception ex)
+                catch (OverflowException ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine($"{ex.Message}");
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine($"{ex.GetType()} {ex.Message}");
                 }
             } while (true);
         }
