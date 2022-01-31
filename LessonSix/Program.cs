@@ -88,3 +88,15 @@ foreach (var info in phoneBook)
 89149149114->Mike
 89149149115->Taty
 89149149116->Maro*/
+
+if (phoneBook.TryAdd(89149149117, "Sanch")) // If 89149149117 is already there, nothing will happen
+{
+    Console.WriteLine("Add success!");
+}
+Console.WriteLine(phoneBook[89149149117]); // Sanch
+
+if (!phoneBook.TryAdd(89149149117, "Sanch"))
+{
+    Console.WriteLine("This key already here");
+}
+// This key already here
