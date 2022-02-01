@@ -49,7 +49,7 @@ Dictionary<long, string> phoneBook = new() // or simple: new Dictionary<long, st
 };
 phoneBook.Add(89149149114, "Mike");
 phoneBook.Add(89149149115, "Taty");
-phoneBook.Add(89149149116, "Maro");
+phoneBook.Add(89149149116, "Mar");
 
 Console.WriteLine(phoneBook[89149149114]); // Mike
 
@@ -76,7 +76,7 @@ Deni
 Niko
 Mike
 Taty
-Maro*/
+Mar*/
 Console.WriteLine($"All Dictionary ({phoneBook.Count} values):");
 foreach (var info in phoneBook)
 {
@@ -87,15 +87,15 @@ foreach (var info in phoneBook)
 89149149113->Niko
 89149149114->Mike
 89149149115->Taty
-89149149116->Maro*/
+89149149116->Mar*/
 
-if (phoneBook.TryAdd(89149149117, "Sanch")) // If 89149149117 is already there, nothing will happen
+if (phoneBook.TryAdd(89149149117, "Sancho")) // If 89149149117 is already there, nothing will happen
 {
     Console.WriteLine("Add success!");
 }
-Console.WriteLine(phoneBook[89149149117]); // Sanch
+Console.WriteLine(phoneBook[89149149117]); // Sancho
 
-if (!phoneBook.TryAdd(89149149117, "Sanch"))
+if (!phoneBook.TryAdd(89149149117, "Sancho"))
 {
     Console.WriteLine("This key already here");
 }
