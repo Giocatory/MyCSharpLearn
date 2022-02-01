@@ -44,3 +44,9 @@
 > > + Write tuple
 > > + Read tuple
 > > + Returned Tuple from function
+
+> Lesson Six
+> > Based work with Collections
+> > + Array
+> > + List
+> > + Dictionary
