@@ -50,3 +50,12 @@
 > > + Array
 > > + List
 > > + Dictionary
+
+> Lesson Seven
+> > Simple work with method and there parameters
+> > + Simple method
+> > + ref parameter
+> > + out parameter
+> > + params parameter
+> > + optional parameter
+> > + wrapper/inner methods (locals methods)
