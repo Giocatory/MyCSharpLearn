@@ -59,3 +59,7 @@
 > > + params parameter
 > > + optional parameter
 > > + wrapper/inner methods (locals methods)
+
+>  Lesson Eight
+> > Based knowledge Nullable data types 
+> > + If you put the sign "?", then it is "possible" that the variable has the value "null"
